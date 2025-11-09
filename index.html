@@ -9,9 +9,9 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Fintasy v2.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Fintasy v2" startnode="7" creator="Twine" creator-version="2.11.0" format="Harlowe" format-version="3.3.9" ifid="E04F1761-87D0-4DBD-8103-FC0C9A76E76F" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="CENA 1: A Queda da Realidade (UERJ)" tags="" position="375,25" size="100,100">&lt;img src = &quot;https://i.imgur.com/RKI3Kp8.jpeg&quot; height=&quot;500px&quot;&gt;
+<tw-storydata name="Fintasy v2" startnode="7" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="E04F1761-87D0-4DBD-8103-FC0C9A76E76F" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="CENA 1: A Queda da Realidade (UERJ)" tags="" position="375,25" size="100,100">&lt;img src = &quot;https://i.imgur.com/RKI3Kp8.jpeg&quot; height=&quot;500px&quot;&gt;
 
-Anna (20, branca, cabelos pretos lisos), estudante de Engenharia de Produção, está animada. O primeiro salário de estágio, R$ 1.500,00, caiu na conta! A euforia foi efêmera.
+Anna é estudante de Engenharia de Produção e está animada. O primeiro salário de estágio, R$ 1.500,00, caiu na conta! A euforia foi efêmera.
 
 Ela comprou um celular novo (R$ 1.000,00) e algumas roupas da moda (R$ 800,00). Ao verificar o extrato, a conta está negativa em R$ 300,00. É o cheque especial, e os juros já estão cobrando seu preço.
 
@@ -24,9 +24,9 @@ Anna, com sua mochila colorida nas costas, sente o peso da inexperiência.
 
 **Qual é a primeira atitude de Anna?**
 
-(link: &quot;Ignorar por enquanto e torcer para o mês que vem resolver&quot;)[(set: $score to $score + 0)(goto: &quot;CENA 3: O Próximo Passo&quot;)]
-(link: &quot;Entrar em pânico e se culpar por tudo&quot;)[(set: $score to $score - 10)(goto: &quot;CENA 3: O Próximo Passo&quot;)]
-(link: &quot;Encarar a realidade, respirar fundo e planejar o próximo passo&quot;)[(set: $score to $score + 20)(goto: &quot;CENA 3: O Próximo Passo&quot;)]</tw-passagedata><tw-passagedata pid="3" name="CENA 3: O Próximo Passo" tags="" position="725,25" size="100,100">O desespero não paga boleto. Anna sabe que precisa de ajuda ou de uma estratégia.
+(link: &quot;a) Ignorar por enquanto e torcer para o mês que vem resolver&quot;)[(set: $score to $score + 0)(goto: &quot;CENA 3: O Próximo Passo&quot;)]
+(link: &quot;b) Entrar em pânico e se culpar por tudo&quot;)[(set: $score to $score - 10)(goto: &quot;CENA 3: O Próximo Passo&quot;)]
+(link: &quot;c) Encarar a realidade, respirar fundo e planejar o próximo passo&quot;)[(set: $score to $score + 20)(goto: &quot;CENA 3: O Próximo Passo&quot;)]</tw-passagedata><tw-passagedata pid="3" name="CENA 3: O Próximo Passo" tags="" position="725,25" size="100,100">O desespero não paga boleto. Anna sabe que precisa de ajuda ou de uma estratégia.
 
 *Feedback:*
 (if: $score &gt;= 20)[Sua atitude proativa é um ótimo começo! Você se poupou de um estresse desnecessário.]
@@ -36,9 +36,9 @@ Anna, com sua mochila colorida nas costas, sente o peso da inexperiência.
 
 &lt;img src = &quot;https://i.imgur.com/uYkxEDB.jpeg&quot; height=&quot;500px&quot;&gt;
 
-(link: &quot;Ligar para os pais (Alberto e Sabrina) e pedir ajuda&quot;)[(goto: &quot;CENA 4: Ajuda dos Pais&quot;)]
-(link: &quot;Conversar com o namorado Lucca (20, sério) para desabafar e pedir conselhos&quot;)[(set: $score to $score + 20)(set: $origin to &quot;lucca&quot;)(goto: &quot;CENA 5: Plano de Ação&quot;)]
-(link: &quot;Pesquisar no Google: &#39;Como sair do cheque especial&#39;&quot;)[(set: $score to $score + 40)(set: $origin to &quot;google&quot;)(goto: &quot;CENA 5: Plano de Ação&quot;)]</tw-passagedata><tw-passagedata pid="4" name="CENA 4: Ajuda dos Pais" tags="" position="900,25" size="100,100">Anna liga para casa. Seu pai, Alberto (57, careca, gordo), atende. Com sua expressão zangada e óculos, ele está furioso.
+(link: &quot;a) Ligar para os pais (Alberto e Sabrina) e pedir ajuda&quot;)[(goto: &quot;CENA 4: Ajuda dos Pais&quot;)]
+(link: &quot;b) Conversar com o namorado Lucca (20, sério) para desabafar e pedir conselhos&quot;)[(set: $score to $score + 20)(set: $origin to &quot;lucca&quot;)(goto: &quot;CENA 5: Plano de Ação&quot;)]
+(link: &quot;c) Pesquisar no Google: &#39;Como sair do cheque especial&#39;&quot;)[(set: $score to $score + 40)(set: $origin to &quot;google&quot;)(goto: &quot;CENA 5: Plano de Ação&quot;)]</tw-passagedata><tw-passagedata pid="4" name="CENA 4: Ajuda dos Pais" tags="" position="900,25" size="100,100">Anna liga para casa. Seu pai, Alberto, atende. Com sua expressão zangada e óculos, ele está furioso.
 Alberto: &quot;Gastou mais do que tem em porcaria! Que irresponsabilidade! Sua mãe e eu teremos que cobrir isso. Você não aprende!&quot;
 
 &lt;img src = &quot;https://i.imgur.com/cyCnd5N.jpeg&quot; height=&quot;500px&quot;&gt;
@@ -47,9 +47,9 @@ Alberto: &quot;Gastou mais do que tem em porcaria! Que irresponsabilidade! Sua m
 
 **Qual é a sua resposta?**
 
-(link: &quot;Opção 1: Aceitar o dinheiro e prometer que não vai se repetir&quot;)[(set: $score to $score - 30)(goto: &quot;CENA 6: A Virada Financeira&quot;)]
-(link: &quot;Opção 2: Rejeitar o dinheiro e dizer que vai criar um orçamento&quot;)[(set: $score to $score + 10)(goto: &quot;CENA 5: Plano de Ação&quot;)]
-(link: &quot;Opção 3: Tentar justificar a compra do celular e das roupas&quot;)[(set: $score to $score - 50)(goto: &quot;CENA 6: A Virada Financeira&quot;)]</tw-passagedata><tw-passagedata pid="5" name="CENA 5: Plano de Ação" tags="" position="1075,25" size="100,100">(if: $origin is &quot;google&quot;)[*Feedback:* Você pesquisou e encontrou o caminho: renda extra e corte de gastos.]
+(link: &quot;a) Aceitar o dinheiro e prometer que não vai se repetir&quot;)[(set: $score to $score - 30)(goto: &quot;CENA 6: A Virada Financeira&quot;)]
+(link: &quot;b) Rejeitar o dinheiro e dizer que vai criar um orçamento&quot;)[(set: $score to $score + 10)(goto: &quot;CENA 5: Plano de Ação&quot;)]
+(link: &quot;c) Tentar justificar a compra do celular e das roupas&quot;)[(set: $score to $score - 50)(goto: &quot;CENA 6: A Virada Financeira&quot;)]</tw-passagedata><tw-passagedata pid="5" name="CENA 5: Plano de Ação" tags="" position="1075,25" size="100,100">(if: $origin is &quot;google&quot;)[*Feedback:* Você pesquisou e encontrou o caminho: renda extra e corte de gastos.]
 (else-if: $origin is &quot;lucca&quot;)[*Feedback:* Lucca (20, negro, sério) escuta com atenção. Ele diz: &quot;Amor, você precisa de uma renda extra. Não espere a próxima bolsa.&quot; ]
 (else:)[*Feedback:* Você precisa de R$ 300,00 o mais rápido possível. Você pode cortar os gastos ou aumentar a renda.]
 
@@ -57,9 +57,9 @@ Alberto: &quot;Gastou mais do que tem em porcaria! Que irresponsabilidade! Sua m
 
 &lt;img src = &quot;https://i.imgur.com/2jydsOk.jpeg&quot; height=&quot;250px&quot;&gt;
 
-(link: &quot;Opção 1: Cortar todos os gastos não essenciais (cinema, lanches)&quot;)[(set: $score to $score + 20)(goto: &quot;CENA 6: A Virada Financeira&quot;)]
-(link: &quot;Opção 2: Vender algumas coisas que não usa mais na internet&quot;)[(set: $score to $score + 30)(goto: &quot;CENA 6: A Virada Financeira&quot;)]
-(link: &quot;Opção 3: Usar suas habilidades culinárias e vender brigadeiros na UERJ&quot;)[(set: $score to $score + 50)(goto: &quot;CENA 6: A Virada Financeira&quot;)]</tw-passagedata><tw-passagedata pid="6" name="CENA 6: A Virada Financeira" tags="" position="1075,150" size="100,100">(if: $score &lt;= 0)[*Feedback:* O dinheiro dos seus pais cobriu o cheque especial. Sua dívida imediata acabou. Você ainda não aprendeu a lição do autocontrole. Você precisa de um plano para o futuro.]
+(link: &quot;a) Cortar todos os gastos não essenciais (cinema, lanches)&quot;)[(set: $score to $score + 20)(goto: &quot;CENA 6: A Virada Financeira&quot;)]
+(link: &quot;b) Vender algumas coisas que não usa mais na internet&quot;)[(set: $score to $score + 30)(goto: &quot;CENA 6: A Virada Financeira&quot;)]
+(link: &quot;c) Usar suas habilidades culinárias e vender brigadeiros na UERJ&quot;)[(set: $score to $score + 50)(goto: &quot;CENA 6: A Virada Financeira&quot;)]</tw-passagedata><tw-passagedata pid="6" name="CENA 6: A Virada Financeira" tags="" position="1075,150" size="100,100">(if: $score &lt;= 0)[*Feedback:* O dinheiro dos seus pais cobriu o cheque especial. Sua dívida imediata acabou. Você ainda não aprendeu a lição do autocontrole. Você precisa de um plano para o futuro.]
 (else-if: $score &gt;= 80)[*Feedback:* Com a renda extra/corte de gastos, você zerou o cheque especial! Seu primeiro passo para a liberdade financeira foi dado com sucesso, e você aprendeu a lição do mês passado.]
 (else:)[*Feedback:* Você conseguiu pagar a dívida, mas o susto foi grande. É hora de mudar o foco: de pagar dívidas para fazer o dinheiro trabalhar para você.]
 
@@ -67,10 +67,9 @@ Alberto: &quot;Gastou mais do que tem em porcaria! Que irresponsabilidade! Sua m
 
 &lt;img src = &quot;https://i.imgur.com/rNfeCw3.png&quot; height=&quot;500px&quot;&gt;
 
-(link: &quot;Começar a investir o mínimo possível (R$ 50,00) e estudar o assunto&quot;)[(set: $score to $score + 40)(goto: &quot;Cena 7: O Foco no Futuro&quot;)]
-(link: &quot;Colocar o dinheiro na poupança, por ser mais seguro&quot;)[(set: $score to $score + 10)(goto: &quot;Cena 7: O Foco no Futuro&quot;)]
-(link: &quot;Aproveitar que saiu do vermelho e fazer um pequeno &#39;mimo&#39; para si mesma&quot;)[(set: $score to $score - 20)(goto: &quot;Cena 7: O Foco no Futuro&quot;)]</tw-passagedata><tw-passagedata pid="7" name="Cena 0 - Introdução - O Jogo é Real" tags="" position="200,25" size="100,100"># Fintasy: Da Dívida ao Investimento
-### (Versão Final Inevitável)
+(link: &quot;a) Começar a investir o mínimo possível (R$ 50,00) e estudar o assunto&quot;)[(set: $score to $score + 40)(goto: &quot;Cena 7: O Foco no Futuro&quot;)]
+(link: &quot;b) Colocar o dinheiro na poupança, por ser mais seguro&quot;)[(set: $score to $score + 10)(goto: &quot;Cena 7: O Foco no Futuro&quot;)]
+(link: &quot;c) Aproveitar que saiu do vermelho e fazer um pequeno &#39;mimo&#39; para si mesma&quot;)[(set: $score to $score - 20)(goto: &quot;Cena 7: O Foco no Futuro&quot;)]</tw-passagedata><tw-passagedata pid="7" name="Cena 0 - Introdução - O Jogo é Real" tags="" position="200,25" size="100,100">### Fintasy: Da Dívida ao Investimento
 
 **Apresentação:** &quot;Fintasy&quot; é mais do que um jogo; é a sua jornada para dominar as finanças. O propósito é claro: promover a educação financeira através de escolhas reais e consequências diretas.
 
@@ -78,16 +77,13 @@ Alberto: &quot;Gastou mais do que tem em porcaria! Que irresponsabilidade! Sua m
 
 [[Começar o jogo (Pronto para encarar a realidade? Sua carteira agradece)-&gt;CENA 1: A Queda da Realidade (UERJ)]]</tw-passagedata><tw-passagedata pid="8" name="Startup" tags="" position="25,25" size="100,100">:: Startup [startup]
 (set: $score to 0)
-(set: $origin to &quot;&quot;)</tw-passagedata><tw-passagedata pid="9" name="Cena 7: O Foco no Futuro" tags="" position="900,150" size="100,100">No pátio da UERJ, Anna encontra sua mãe, Sabrina (45, advogada, simpática), que está em trajes sociais.
+(set: $origin to &quot;&quot;)</tw-passagedata><tw-passagedata pid="9" name="Cena 7: O Foco no Futuro" tags="" position="900,150" size="100,100">No pátio da UERJ, Anna encontra sua mãe, Sabrina, que está em trajes sociais.
 
 **Sabrina:** &quot;Filha, pagar a dívida é o primeiro passo. Agora, vamos falar de investimento. O dinheiro parado na poupança não cresce.&quot;
 
 Qual é a fonte de conhecimento que Anna busca?
 
-No pátio da UERJ, Anna encontra sua mãe, Sabrina (45, advogada, simpática), que está em trajes sociais.
-Sabrina: &quot;Filha, pagar a dívida é o primeiro passo. Agora, vamos falar de investimento. O dinheiro parado na poupança não cresce.&quot;
-
-&lt;img src = &quot;https://i.imgur.com/EZlePGn.png&quot; height=&quot;500px&quot;&gt;
+&lt;img src = &quot;https://i.imgur.com/9Z0xwr1.png&quot; height=&quot;500px&quot;&gt;
 
 *Comentário: O aprendizado é o seu maior retorno. Anna decide que, para investir, precisa dominar os termos técnicos.*
 
@@ -98,9 +94,9 @@ Sabrina: &quot;Filha, pagar a dívida é o primeiro passo. Agora, vamos falar de
 
 &lt;img src = &quot;https://i.imgur.com/91fdNfb.png&quot; height=&quot;500px&quot;&gt;
 
-(link: &quot;Opção 1: Fundo Conservador em CDB Pós-Fixado (100% do CDI): Baixo risco, acompanha a economia&quot;)[(set: $score to $score + 30)(goto: &quot;CENA 8.5: Aula de Finanças: Sistemas de Amortização&quot;)]
-(link: &quot;Opção 2: CDB com Taxa PREFIXADA a 11% ao ano: Segurança de saber o rendimento, risco moderado&quot;)[(set: $score to $score + 50)(goto: &quot;CENA 8.5: Aula de Finanças: Sistemas de Amortização&quot;)]
-(link: &quot;Opção 3: Criptomoedas (Alto Risco) na esperança de um retorno rápido&quot;)[(set: $score to $score - 40)(goto: &quot;CENA 8.5: Aula de Finanças: Sistemas de Amortização&quot;)]</tw-passagedata><tw-passagedata pid="11" name="Cena 9: Caminho Final" tags="" position="25,275" size="100,100">Um ano se passou. Anna se formou e o hábito de controlar as finanças e investir se consolidou. O ciclo &quot;Da Dívida ao Investimento&quot; chegou ao fim. Agora é hora de ver onde as suas decisões te levaram.
+(link: &quot;a) Fundo Conservador em CDB Pós-Fixado (100% do CDI): Baixo risco, acompanha a economia&quot;)[(set: $score to $score + 30)(goto: &quot;CENA 8.5: Aula de Finanças: Sistemas de Amortização&quot;)]
+(link: &quot;b) CDB com Taxa PREFIXADA a 11% ao ano: Segurança de saber o rendimento, risco moderado&quot;)[(set: $score to $score + 50)(goto: &quot;CENA 8.5: Aula de Finanças: Sistemas de Amortização&quot;)]
+(link: &quot;c) Criptomoedas (Alto Risco) na esperança de um retorno rápido&quot;)[(set: $score to $score - 40)(goto: &quot;CENA 8.5: Aula de Finanças: Sistemas de Amortização&quot;)]</tw-passagedata><tw-passagedata pid="11" name="Cena 9: Caminho Final" tags="" position="25,275" size="100,100">Um ano se passou. Anna se formou e o hábito de controlar as finanças e investir se consolidou. O ciclo &quot;Da Dívida ao Investimento&quot; chegou ao fim. Agora é hora de ver onde as suas decisões te levaram.
 
 ## Resultado Final
 Sua pontuação final foi: **$score**
@@ -132,7 +128,7 @@ Opção B (100% do CDI): Se o CDI for 9%, você tem R$ 1.090,00. Se for 11%, voc
 [[Entendi a diferença! (Próxima lição, por favor)-&gt; Cena 8: A Decisão de Investir]]</tw-passagedata><tw-passagedata pid="13" name="CENA 8.5: Aula de Finanças: Sistemas de Amortização" tags="" position="375,150" size="100,100">**Aula de Finanças: Sistemas de Amortização (SAC vs. PRICE)**
 Anna avança nos estudos. Ela sabe que precisa entender de dívidas maiores para o futuro.
 
-&lt;img src = &quot;https://i.imgur.com/wBDNhme.jpeg&quot; height=&quot;250px&quot;&gt;
+&lt;img src = &quot;https://i.imgur.com/6SZGG18.png&quot; height=&quot;250px&quot;&gt;
 
 Professora Silvia: &quot;Agora, um passo além: os sistemas de amortização. Essenciais para financiamentos de longo prazo (imóveis, carros). Temos dois gigantes:
 **Sistema PRICE:** Famoso por ter parcelas constantes (amortização baixa no início e alta no final). É bom para quem precisa de parcelas que cabem no orçamento inicial. No começo, você paga muito mais juros.
@@ -148,17 +144,26 @@ Professora Silvia: &quot;Agora, um passo além: os sistemas de amortização. Es
 
 **Qual é o valor aproximado da parcela (PMT) do notebook?**
 
-(link: &quot;Opção 1: R$ 320,50&quot;)[(set: $score to $score + 0)(goto: &quot;CENA 8.7: A Escolha da Amortização&quot;)]
-(link: &quot;Opção 2: R$ 350,20&quot;)[(set: $score to $score + 0)(goto: &quot;CENA 8.7: A Escolha da Amortização&quot;)]
-(link: &quot;Opção 3: R$ 333,90&quot;)[(set: $score to $score + 60)(goto: &quot;CENA 8.7: A Escolha da Amortização&quot;)]</tw-passagedata><tw-passagedata pid="15" name="CENA 8.7: A Escolha da Amortização" tags="" position="25,150" size="100,100">Eles decidiram financiar o notebook, mas a loja oferece as duas opções de amortização. Eles não se preocupam com a parcela inicial, mas sim em pagar o menor juros total.
+(link: &quot;a) R$ 320,50&quot;)[(set: $score to $score + 0)(goto: &quot;CENA 8.7: A Escolha da Amortização&quot;)]
+(link: &quot;b) R$ 350,20&quot;)[(set: $score to $score + 0)(goto: &quot;CENA 8.7: A Escolha da Amortização&quot;)]
+(link: &quot;c) R$ 333,90&quot;)[(set: $score to $score + 60)(goto: &quot;CENA 8.7: A Escolha da Amortização&quot;)]
+
+[[Ver uma dica 💡]]</tw-passagedata><tw-passagedata pid="15" name="CENA 8.7: A Escolha da Amortização" tags="" position="25,150" size="100,100">Eles decidiram financiar o notebook, mas a loja oferece as duas opções de amortização. Eles não se preocupam com a parcela inicial, mas sim em pagar o menor juros total.
 
 &lt;img src = &quot;https://i.imgur.com/JQDQgaz.png&quot; height=&quot;500px&quot;&gt;
 
 **Qual sistema Anna deve escolher para pagar o menor valor total de juros no longo prazo?**
 
-(link: &quot;Opção 1: Sistema PRICE (Parcelas Constantes)&quot;)[(set: $score to $score - 20)(goto: &quot;Cena 9: Caminho Final&quot;)]
-(link: &quot;Opção 2: Sistema de Amortização Constante (SAC)&quot;)[(set: $score to $score + 50)(goto: &quot;Cena 9: Caminho Final&quot;)]
-(link: &quot;Opção 3: Não importa, o juro é o mesmo nos dois sistemas&quot;)[(set: $score to $score - 40)(goto: &quot;Cena 9: Caminho Final&quot;)]</tw-passagedata></tw-storydata>
+(link: &quot;a) Sistema PRICE (Parcelas Constantes)&quot;)[(set: $score to $score - 20)(goto: &quot;Cena 9: Caminho Final&quot;)]
+(link: &quot;b) Sistema de Amortização Constante (SAC)&quot;)[(set: $score to $score + 50)(goto: &quot;Cena 9: Caminho Final&quot;)]
+(link: &quot;c) Não importa, o juro é o mesmo nos dois sistemas&quot;)[(set: $score to $score - 40)(goto: &quot;Cena 9: Caminho Final&quot;)]</tw-passagedata><tw-passagedata pid="16" name="Ver uma dica 💡" tags="" position="200,275" size="100,100">Em alguns sistemas de pagamento, existe um fator especial que transforma um valor total em parcelas iguais ao longo do tempo.
+Esse fator combina a taxa de juros com a quantidade de períodos e serve justamente para isso:
+
+converter o valor da dívida na parcela uniforme.
+
+Se você encontrar esse fator… basta usá-lo da forma mais natural possível 😉
+
+Pense: se um número “resume” o efeito dos juros e do tempo, como você o usaria para descobrir cada parcela?</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
